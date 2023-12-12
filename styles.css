@@ -1,0 +1,88 @@
+/*  #43BCCD
+    #EA3546
+    #662E9B
+    #F86624
+    #F9C80E
+
+*/
+
+.container{
+    background-color: #662E9B;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.title{
+    
+    color: #EA3546;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+body {
+    background-color: #43BCCD;
+}
+a{
+    color: #F86624;
+}
+a:hover {
+    color: #EA3546;
+    font-size: large;
+}
+a:visited {
+    color: #F9C80E;
+}
+
+.recipe-links,
+.ingredients {
+    list-style: none;
+    border-color: #EA3546;
+    border-style: groove;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.ingredients {
+    padding-bottom: 1%;
+    margin-bottom: 50px;
+    font-size: large;
+}
+.ingredients h4,
+.ingredients li{
+    color: #EA3546;
+}
+.ingredients h4 {
+    font-size: larger;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container h3{
+    font-size:x-large;
+}
+.description {
+    color: #F9C80E;
+}
+.description p{
+    font-size: large;
+}
+.instructions h4 {
+    font-size: larger;
+}
+.instructions{
+    color: #F86624;
+    font-size: large;
+}
+.instructions ol{
+    list-style-position: inside;
+    padding: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+ol {
+    text-decoration: underline;
+    text-decoration-color: #43BCCD;
+}
