@@ -1,88 +1,90 @@
-/*  #43BCCD
-    #EA3546
-    #662E9B
-    #F86624
-    #F9C80E
+/*  
+    #fd331f
+    #ff7a2d
+    #51a584
+    #1e2e47
+    #1e2223
+    #e9bb2a
 
 */
-
-.container{
-    background-color: #662E9B;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-
-}
-.title{
-    
-    color: #EA3546;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: xx-large;
-}
-body {
-    background-color: #43BCCD;
-}
-a{
-    color: #F86624;
-}
-a:hover {
-    color: #EA3546;
-    font-size: large;
-}
-a:visited {
-    color: #F9C80E;
-}
-
-.recipe-links,
-.ingredients {
-    list-style: none;
-    border-color: #EA3546;
-    border-style: groove;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.ingredients {
-    padding-bottom: 1%;
-    margin-bottom: 50px;
-    font-size: large;
-}
-.ingredients h4,
-.ingredients li{
-    color: #EA3546;
-}
-.ingredients h4 {
-    font-size: larger;
-}
-ul {
-    list-style: none;
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.container h3{
-    font-size:x-large;
+body {
+    padding-top: 0;
+    margin-top: 0;
+    background-color: #51a584;
 }
-.description {
-    color: #F9C80E;
-}
-.description p{
-    font-size: large;
-}
-.instructions h4 {
-    font-size: larger;
-}
-.instructions{
-    color: #F86624;
-    font-size: large;
-}
-.instructions ol{
-    list-style-position: inside;
-    padding: 0;
+.header{
+    background-color: #fd331f;
+    height:auto;
+    font-size: x-large;
     text-align: center;
+}
+.header h1{
+    padding: 10px;
+}
+.recipe-link{
+    display: inline-block;
+    background-color: #1e2e47;
+    margin: 10px;
+    padding: 5px;
+}
+.recipe-link a{
+    display: block;
+    text-align: center;
+    margin: 30px;
+    color: #e9bb2a;
+}
+.recipe-link-container{
+    margin: 50px;
+}
+.recipe-links{
+    width: fit-content;
     margin-right: auto;
     margin-left: auto;
 }
-ol {
-    text-decoration: underline;
-    text-decoration-color: #43BCCD;
+.recipe-link a{
+    padding: 10px;
+    font-size: x-large;
+}
+.recipe-link a:hover{
+    color: #ff7a2d;
+}
+.container{
+    background-color: #1e2e47;
+    width: fit-content;
+    padding: 50px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #e9bb2a;
+    text-align: center;
+}
+
+.container h3{
+    font-size: xx-large;
+}
+.container p{
+    font-size: large;
+}
+.ingredients h4,
+.instructions h4{
+    font-size: x-large;
+}
+.ingredients-list{
+    list-style: none;
+}
+a{
+    color: #e9bb2a;
+}
+a:hover{
+    color: #ff7a2d;
+}
+.ingredients,
+.instructions,
+description{
+    margin: 10px;
 }
